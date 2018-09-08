@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<app>
+	
+	<mvc>
+		<name>RegModule</name>
+		<ctrl>devloper.MVC.RegistrationController</ctrl>
+		<model></model>
+		<ctrl-url>/registration</ctrl-url>
+		<view>/WEB-INF/view/registration-form.jsp</view>
+	</mvc>
+	<mvc>
+		<name>RegModule</name>
+		<ctrl>devloper.MVC.RegistrationProcess</ctrl>
+		<model></model>
+		<ctrl-url>/registrationProcess</ctrl-url>
+		<view>/WEB-INF/view/registration-form.jsp</view>
+	</mvc>
+	
+	
+	<mvc>
+		<name>LogModule</name>
+		<ctrl>devloper.MVC.LoginController</ctrl>
+		<model></model>
+		<ctrl-url>/loginView</ctrl-url>
+		<view>/WEB-INF/view/login-view.jsp</view>
+	</mvc>
+	<mvc>
+		<name>LogModule</name>
+		<ctrl>devloper.MVC.LoginProcess</ctrl>
+		<model></model>
+		<ctrl-url>/loginProcess</ctrl-url>
+		<view>/WEB-INF/view/login-view.jsp</view>
+	</mvc>
+	
+	
+	<mvc>
+		<name>HomeModule</name>
+		<ctrl>devloper.MVC.Logout</ctrl>
+		<model></model>
+		<ctrl-url>/homePage</ctrl-url>
+		<view>/WEB-INF/view/home.jsp</view>
+	</mvc>
+	<mvc>
+		<name>HomeModule</name>
+		<ctrl>devloper.MVC.LogoutProcess</ctrl>
+		<model></model>
+		<ctrl-url>/logoutProcess</ctrl-url>
+		<view>/WEB-INF/view/home.jsp</view>
+	</mvc>
+	
+	
+
+</app>
